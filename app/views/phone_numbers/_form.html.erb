@@ -12,11 +12,9 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :number %><br>
     <%= f.text_field :number %>
   </div>
-  <div class="field">
-    <%= f.label :person_id %><br>
+  <div class="field" visibility: hidden>
     <%= f.number_field :person_id %>
   </div>
   <div class="actions">
