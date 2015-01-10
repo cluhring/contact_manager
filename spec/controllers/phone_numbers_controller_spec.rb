@@ -125,7 +125,7 @@ RSpec.describe PhoneNumbersController, :type => :controller do
       end
 
 
-      it "redirects to the phone_number" do
+      it "redirects to the phone_number's person" do
         bob = Person.create(first_name: "Bob", last_name: "Vela")
         valid_attributes = {number: '565-8888', person_id: bob.id}
         phone_number = PhoneNumber.create! valid_attributes
