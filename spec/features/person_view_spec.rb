@@ -108,12 +108,8 @@ describe 'the person view', type: :feature do
       end
     end
 
-
-
   end
-
   #visitd ('/people/1')
   #click_link('delete')
   #Ask lo how to write a Capybara test - to test my destroy button/link
-
 end
